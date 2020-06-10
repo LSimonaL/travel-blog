@@ -1,0 +1,115 @@
+body {
+   overflow-x: hidden;
+}
+
+h3 {
+   font-family:"Tenali Ramakrishna";
+}
+
+/*Navigation*/
+.navbar {
+    background-color: #14213d !important;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2) !important;
+}
+
+/*Login & Signup*/
+
+.auth-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .auth-inner {
+    width: 450px;
+    margin: auto;
+    background: #ffffff;
+    /* box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2); */
+    padding: 40px 55px 45px 55px;
+    transition: all .3s;
+  }
+  
+  .auth-wrapper .form-control:focus {
+    border-color: #007ea7;
+    box-shadow: none;
+  }
+  
+  .auth-wrapper h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+  }
+  
+  .custom-control-label {
+    font-weight: 400;
+  }
+  
+  .btn-form {
+    background-color: #007ea7 !important;
+    border-color: #007ea7 !important;
+  }
+
+  /* Blog */
+  .createTripBtn {
+    cursor: pointer;
+    border-radius: 100% !important;
+    box-shadow: 0px 1px 2px 1px #ccc;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    line-height: 24px !important;
+    padding: 2px 13px 5px 13px !important;
+ }
+ 
+ .createTripBtn:hover {
+    box-shadow: 2px 4px 6px 1px #ccc;
+ }
+
+ /*Post List*/
+
+ .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 360px));
+    grid-gap: 1em;
+ }
+ 
+ a:link {
+    text-decoration: none !important;
+ }
+ 
+ .deckStyle {
+    border: none !important;
+    box-shadow: 0px 2px 4px 0px #999;
+ }
+ 
+ 
+ /*Post Post*/
+ 
+ .postCover {
+    color: #34495e;
+ }
+ 
+ 
+ /*Post View*/
+ /* .viewPost {
+    overflow-wrap: break-word;
+ }
+ 
+ .postTitle {
+    color: black;
+ }
+ 
+ .footerStyle {
+    color:  #555;
+ } */
+
+
+ /*Post Create Form*/
+
+ /*Unsplash Gallery*/
+.images {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
